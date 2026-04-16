@@ -27,7 +27,7 @@
                         </div>
                     {% endif %}
                     <!-- select original -->
-                    <a class="button" href="#" onclick="FileSubmit('{{ fileobject.path }}', '{{ fileobject.url }}', '{{ thumbnail_version.url }}', '{{ fileobject.filetype }}');">{% trans "Select" %}</a>
+                    <a class="button" href="#" onclick='FileSubmit("{{ fileobject.path }}", "{{ fileobject.url }}", "{{ thumbnail_version.url }}", "{{ fileobject.filetype }}");'>{% trans "Select" %}</a>
                 {% else %}
                     &nbsp;
                 {% endif %}
